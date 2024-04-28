@@ -7,24 +7,24 @@ VALUES
 
 INSERT INTO role (title, salary, department_id)
 VALUES
-('Full Stack Developer', 80000, 1),
-('Software Engineer', 120000, 1),
+('Full Stack Developer', 90000, 1),
+('Software Engineer', 140000, 1),
 ('Accountant', 10000, 2), 
-('Finanical Analyst', 150000, 2),
+('Finanical Analyst', 160000, 2),
 ('Marketing Coordindator', 70000, 3), 
 ('Sales Lead', 90000, 3),
 ('Project Manager', 100000, 4),
-('Operations Manager', 90000, 4);
+('Operations Manager', 80000, 4);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
-('Zagreus', 'Miller', 2, null),
+('Zagreus', 'Smith', 2, null),
 ('Ares', 'Anderson', 1, 1),
-('Aphrodite', 'Brown', 4, null),
+('Aphrodite', 'Pink', 4, null),
 ('Demeter', 'Jones', 3, 3),
 ('Theseus', 'Moore', 6, null),
 ('Artemis', 'Sanchez', 5, 5),
 ('Hypnos', 'Allen', 7, null),
-('Achilles', 'Green', 8, 7);
+('Achilles', 'Tendon', 8, 7);
 
